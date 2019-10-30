@@ -78,6 +78,7 @@ class FromClass extends LiftedComponent {
     const obsKeys = []
     const obsStreams = []
 
+    //eslint-disable-next-line no-unused-vars
     for (const key in props) {
       const val = props[key]
       const keyOut = "mount" === key ? "ref" : key
@@ -99,6 +100,7 @@ class FromClass extends LiftedComponent {
         const obsVals = ev.value()
         const props = {}
         let children = null
+        //eslint-disable-next-line no-unused-vars
         for (const key in vals) {
           const val = vals[key]
           if ("children" === key) {children = val} else {props[key] = val}
@@ -125,6 +127,7 @@ export const fromClass =
 
 export const fromClasses = classes => {
   const result = {}
+  //eslint-disable-next-line no-unused-vars
   for (const k in classes)
     result[k] = fromClass(classes[k])
   return result
