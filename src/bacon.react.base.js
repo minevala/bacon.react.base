@@ -1,4 +1,4 @@
-import Bacon  from "baconjs"
+import * as Bacon  from "baconjs"
 import * as R from "ramda"
 import React  from "react"
 

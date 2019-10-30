@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/calmm-js/bacon.react.base#readme",
   "dependencies": {
-    "baconjs": "^0.7.84",
-    "ramda": ">=0.20.1 <0.24.0",
-    "react": "^15.0.1"
+    "baconjs": "^3.0.11",
+    "ramda": "^0.26.1",
+    "react": "^16.11.0"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
